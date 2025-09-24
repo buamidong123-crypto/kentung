@@ -1,0 +1,32 @@
+
+import './App.css';
+import NavigationBar from './components/NavigationBar';
+import Intro from './components/Intro';
+import Trending from './components/Trending';
+import Horor from './components/Horor';
+import "./style/landingPage.css";
+
+function App() {
+  return (
+    <div>
+      {/* intro section */}
+      <div className="myBG">
+        <NavigationBar />
+        <Intro />
+      </div>
+      {/* end of intro */}
+
+      {/* trending saction */}
+      <div className='trending'>
+        <Trending />
+      </div>
+      {/* end of trending saction */}
+
+      <div className='horor'>
+        <Horor />
+      </div>
+    </div>
+  );
+}
+
+export default App;

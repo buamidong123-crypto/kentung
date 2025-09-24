@@ -1,0 +1,53 @@
+.myBG {
+    height: 100vh;
+    background: url(../assets/images/hor.jpg);
+    background-size: 100vh;
+}
+.intro{
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 8px 8px black;
+    letter-spacing: 5px;
+}
+
+.trending {
+     height: auto;
+    background: url(../assets/images/har.png);
+    background-size: 100vh;
+}
+
+.horor {
+     height: auto;
+    background: url(../assets/images/hir.png);
+    background-size: 100vh;
+}
+
+.muvieWrapper{
+
+}
+
+.images {
+    height: 500px;
+}
+
+.muvieImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.HororImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+
+}
